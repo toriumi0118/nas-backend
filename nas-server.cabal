@@ -2,7 +2,7 @@ name:                nas-server
 version:             0.1.0.0
 synopsis:            Initial project template from stack
 description:         Please see README.md
-homepage:            http://github.com/githubuser/nas-server#readme
+homepage:            http://github.com/toriumi0118/nas-backend#readme
 license:             BSD3
 license-file:        LICENSE
 author:              Author name here
@@ -17,6 +17,18 @@ library
   hs-source-dirs:      src
   exposed-modules:     SimpleServer
                      , DownloadSchedule
+                     , Lesson01
+                     , Lesson02
+                     , Lesson03
+                     , Lesson04
+                     , Lesson05
+                     , Lesson06
+                     , Lesson07
+                     , Lesson08
+                     , Lesson09
+                     , Lesson10
+                     , Lesson11
+                     , Lesson12
   build-depends:       base >= 4.7 && < 5
                      , warp
                      , wai
@@ -47,4 +59,4 @@ test-suite nas-server-test
 
 source-repository head
   type:     git
-  location: https://github.com/githubuser/nas-server
+  location: https://github.com/toriumi0118/nas-backend

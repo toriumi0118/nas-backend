@@ -41,7 +41,7 @@ extractData = concat . attribute "href"
 
 -- データ要素リストに対する処理
 -- processData = putStrLn . T.unpack . T.concat
-processData = mapM_ putStrLn
+-- processData = mapM_ putStrLn
 
 cursorFor :: String -> IO Cursor
 cursorFor u = do
@@ -51,6 +51,7 @@ cursorFor u = do
 -- test
 main = do
   cursor <- cursorFor url
-  putStr processData $ cursor $// findNodes &| extractData
+  putStr "hogehoge"
+  -- putStr processData $ cursor $// findNodes &| extractData
   
   -- L.putStrLn . L.take 1000 =<< simpleHttp url
